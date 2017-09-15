@@ -1,0 +1,918 @@
+<div class="course_box per_center_main overlay-wrapper"
+	data-id="study-course">
+	<!--各学期课程学习情况的统计-->
+	<div class="learnCase" data-role="learn-case">
+
+		<!--非院校模式-->
+
+		<table width="100%">
+			<tbody>
+				<tr>
+					<td width="36%"><strong class="font16"> 2017春季第二学期 </strong>
+						<div class="font12">
+							<strong>开始时间：</strong> 2017-04-01
+						</div>
+						<div class="font12">
+							<strong>结束时间：</strong> 2018-02-28
+						</div></td>
+					<td width="20%" align="center"><span class="stat_num">0/7</span>
+						<br>通过数/课程总数</td>
+					<td width="26%" align="center"><span class="stat_num">0/26</span>
+						<br>已获学分/总学分</td>
+					<td width="18%" align="center"><span
+						class="stat_num position-relative"> 1 <em
+							class="jump_tips down_status"> <!--<i class="icon icon-71x93"></i>-->
+						</em>
+
+
+					</span> <br>班级排名</td>
+				</tr>
+			</tbody>
+		</table>
+		<!--院校模式（有考试）-->
+
+
+	</div>
+
+	<!--课程学习进度-->
+
+	<div class="clearfix course-progress margin_b25 cp-divide-4">
+		<div class="course-year-group on">
+			<span class="order">1</span>
+			<div class="course-semester actived warning first">
+				<div class="in">
+					<span class="course-semester-name">第1学期</span> <span
+						class="u-arrow-box"> <i></i> <em></em>
+					</span> <i class="down_btn "></i>
+				</div>
+			</div>
+			<div class="course-semester actived warning">
+				<div class="in">
+					<span class="course-semester-name">第2学期</span> <span
+						class="u-arrow-box"> <i></i> <em></em>
+					</span> <i class="down_btn cur"></i>
+				</div>
+			</div>
+		</div>
+		<div class="course-year-group">
+			<span class="order">2</span>
+			<div class="course-semester  ">
+				<div class="in">
+					<span class="course-semester-name">第3学期</span> <span
+						class="u-arrow-box"> <i></i> <em></em>
+					</span> <i class="down_btn "></i>
+				</div>
+			</div>
+			<div class="course-semester   last">
+				<div class="in">
+					<span class="course-semester-name">第4学期</span> <span
+						class="u-arrow-box"> <i></i> <em></em>
+					</span> <i class="down_btn "></i>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="course-fin ">
+			<div class="in">
+				<i class="icon icon-0x68"></i> <i class="u-arrow"></i>
+			</div>
+		</div>
+	</div>
+
+
+	<!--各学期的课程-->
+	<article class="c_ctn">
+		<div class="c_ctn_item">
+
+
+			<div class="course_box"
+				data-teach-plan-id="cc40ed1f559b4de3aa9611b86edd9274">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车自动变速器" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车自动变速器</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">选修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">3学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：马振平
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="course_box"
+				data-teach-plan-id="4d26d19038554866a760c8026ca6f3db">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车电工电子基础" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车电工电子基础</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">必修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">4学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：徐昀
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="course_box"
+				data-teach-plan-id="b3ba59753893402f84761b8c24928df0">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车底盘构造与维修" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车底盘构造与维修</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">必修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">4学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：马振平
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="course_box"
+				data-teach-plan-id="9f43ae8b0a2c411f9b6feec0ce3ca008">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车保险与理赔" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车保险与理赔</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">选修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">3学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：--
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="course_box"
+				data-teach-plan-id="539951cf62ad4100be4f3c50396dc42b">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车机械基础" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车机械基础</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">必修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">4学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：马振平
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="course_box"
+				data-teach-plan-id="b3aa3a5ad92c4ae8bec223e66aa31b6c">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车发动机构造与维修" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车发动机构造与维修</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">必修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">4学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：马振平
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="course_box"
+				data-teach-plan-id="bb72247ef138417bac66281c50ecf682">
+				<div class="kc_box bg_png clearfix padding10">
+					<div class="kc_l">
+						<img
+							src="http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg"
+							alt="汽车运用基础" data-id="course-pic"
+							onerror="this.src='http://css.gzedu.com/ouchgzee_com/person_center/v3.0.1/images/course-default.jpg'">
+						<p>
+							<i></i><em class="font16" data-role="count-online">0</em>人正在学此课程
+						</p>
+					</div>
+					<div class="kc_r">
+						<div class="score_div clearfix">
+
+							<h2>汽车运用基础</h2>
+							<div class="kc_tag">
+
+								<span class="label label-warning">必修</span>
+
+
+								<!--非院校模式显示-->
+
+								<span class="label label-default">4学分</span>
+
+
+
+							</div>
+							<p class="">
+								<i class="icon icon-107x31"></i>辅导老师：马振平
+							</p>
+						</div>
+						<div class="kc_tab">
+
+							<!--面授课程 -->
+
+							<!--院校(有考试)-->
+							<!--或-->
+							<!--过去已经进行过的学期-->
+
+							<!--伪语言 逻辑判断
+                            IF (老生 IS_NEWSTU=1) 且 (下一学期 isCourseOpen===false) 且 (开始时间未到 IS_OPEN==1)
+                                显示“暂未开放学习”按钮
+                            ELSE
+                                IF (新生 IS_NEWSTU=0) 或 ( (老生 IS_NEWSTU=1) 且 ( (当前学期 isCourseOpen===true) 或 (下一学期 isCourseOpen===false 且 开始时间已到 IS_OPEN==0) ) )
+                                    IF (课程 已经开课 TERMCOURSE_ID_STATUS=1) 且 ( 课程 已启用 LEARN_STATUS=1)
+                                        IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=0)
+                                            显示“进入预习”按钮
+                                        ELSE IF (课程 教学周期 未开始 IS_COURSE_STARTDATE=1、2)
+                                            显示“进入学习”按钮
+                                        ENDIF
+                                    ELSE IF (课程 未开课 TERMCOURSE_ID_STATUS=0) 或 ( 课程 已启用 LEARN_STATUS!=1)
+                                        显示“暂未开放学习”按钮
+                                    ENDIF
+                                ENDIF
+                            ENDIF
+                        -->
+
+
+
+							<button type="button" class="btn btn-md btn-gray disabled"
+								disabled="">暂未开放学习</button>
+
+
+
+
+
+
+							<!--该学期还未开放-->
+
+							<!--是否通过 的图标-->
+
+
+							<table>
+								<tbody>
+									<tr>
+										<!--“面授”课程 不显示 学习进度-->
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习进度</p>
+										</td>
+
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">学习成绩</p>
+										</td>
+										<td class="td1">
+											<p>
+												<em>--</em>
+											</p>
+											<p class="results">考试成绩</p>
+										</td>
+										<td class="td1" style="border-right: 0 none;">
+											<p>
+												<em> <!--未通过--> 学习中 <!--登记中-->
+
+
+												</em>
+											</p>
+											<p class="results">总成绩</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<!--院校模式（无考试）-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</article>
+</div>

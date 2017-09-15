@@ -1,0 +1,1112 @@
+<div class="maincontent">
+
+	<section class="grid box_style bottom10">
+		<h2 class="f18 f_normal padding_l20 padding_t20 padding_b20">
+			<i class="icon ico_bg right10 analysis_ico bg_png"></i>学情分析
+		</h2>
+	</section>
+	<!--选项卡-->
+	<div class="m_tabs_1 bottom10 box_style" id="analysisTabs"
+		data-type="tabs">
+		<ul>
+			<li class="" id="classLi" onclick="getClassAnalysis('class')"><span>班级学情</span>
+				<em class="ico_bg bg_png"></em></li>
+			<li id="studLi" onclick="getClassAnalysis('stud')" class=""><span>学员学情</span>
+				<em class="ico_bg bg_png"></em></li>
+			<li id="courseLi" onclick="getClassAnalysis('course')" class="cur">
+				<span>课程学情</span> <em class="ico_bg bg_png"></em>
+			</li>
+			<li id="qastoreLi" class="last" onclick="getClassAnalysis('qastore')">
+				<span>做题分析</span> <em class="ico_bg bg_png"></em>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m_tabs_cnt_box" id="analysisBoxs">
+		<!--班级学情-->
+		<div class="m_tabs_cnt_item" id="analysis_class_info"
+			style="display: none;"></div>
+
+		<!--学员学情-->
+		<div class="m_tabs_cnt_item" id="analysis_stud_info"
+			style="display: none;"></div>
+
+		<!--课程学情-->
+		<div class="m_tabs_cnt_item" id="analysis_course_info"
+			style="display: block;">
+
+
+
+
+
+			<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+
+
+
+
+			<!--学习项目选项卡 开始-->
+			<div class="m_tabs_1_1 has_ico_tabs clearfix" data-type="tabs">
+				<ul style="left: 0px;">
+					<li class="cur" id="42ba47847f000001d6adb42b8090933c"><span><em
+							class="ico_bg">1</em>基础学习（20分）</span></li>
+					<li id="42ba47047f000001d6adb42b53015836"><span><em
+							class="ico_bg">2</em>重难点学习（80分）</span></li>
+					<li id="42ba47617f000001d6adb42b75c8bcd9"><span><em
+							class="ico_bg">3</em>拓展学习（选修）</span></li>
+				</ul>
+
+				<div class="tabs_btn_left tofirst" style="display: none;"></div>
+				<div class="tabs_btn_right" style="display: none;"></div>
+			</div>
+			<!--学习项目选项卡 结束-->
+			<!--学习项目具体内容 开始-->
+			<div class="study_item_info">
+				<div class="study_tab_cnt" style="display: block;">
+					<div class="study_items">
+						<h3 class="s_items_tit">
+							<em class="ico_bg"></em>基础学习
+						</h3>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','1BFB157E79E59EA9C1031493977C172C73825AE55A51F21D19B24475295D78C3C3C8FAF2FD8A686E','5BDBF9A79065B5E0C3C8FAF2FD8A686E','42ba48737f000001d6adb42bca3cbacc')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba48737f000001d6adb42bca3cbacc">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba48737f000001d6adb42bca3cbacc">0.4</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba48737f000001d6adb42bca3cbacc">36</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba48737f000001d6adb42bca3cbacc">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba48737f000001d6adb42bca3cbacc">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba48737f000001d6adb42bca3cbacc"
+											value="1">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>课程导学</span> <font
+													id="taskTime_42ba48737f000001d6adb42bca3cbacc"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','0CA50BB11571EDE3C1031493977C172C73825AE55A51F21DFC4971228E2BD867C3C8FAF2FD8A686E','3743475172E37901250706B77BC01CFE799A8111C3664928','42ba48207f000001d6adb42badadb498')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba48207f000001d6adb42badadb498">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba48207f000001d6adb42badadb498">0.6</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba48207f000001d6adb42badadb498">8</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba48207f000001d6adb42badadb498">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba48207f000001d6adb42badadb498">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba48207f000001d6adb42badadb498"
+											value="2.6">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第一章 人力资源管理导论</span> <font
+													id="taskTime_42ba48207f000001d6adb42badadb498"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','53EB955EDA7FE17DC1031493977C172C73825AE55A51F21D1E646905A06262B4C3C8FAF2FD8A686E','5AECE31B31EF0FAF250706B77BC01CFE5A2F86845F8564BE8B962E5D973B5222','42ba47b47f000001d6adb42bcc12aa15')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47b47f000001d6adb42bcc12aa15">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47b47f000001d6adb42bcc12aa15">0.3</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47b47f000001d6adb42bcc12aa15">3</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47b47f000001d6adb42bcc12aa15">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47b47f000001d6adb42bcc12aa15">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47b47f000001d6adb42bcc12aa15"
+											value="2.6">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第二章 人力资源管理与组织战略</span> <font
+													id="taskTime_42ba47b47f000001d6adb42bcc12aa15"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','98F341CE0EFEF852C1031493977C172C73825AE55A51F21D5DA42BEE7BEA90E2C3C8FAF2FD8A686E','BFECEF382619B861250706B77BC01CFE32FFE09B79B68AF6','42ba47a27f000001d6adb42b5a4ddae4')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47a27f000001d6adb42b5a4ddae4">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47a27f000001d6adb42b5a4ddae4">0.1</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47a27f000001d6adb42b5a4ddae4">3</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47a27f000001d6adb42b5a4ddae4">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47a27f000001d6adb42b5a4ddae4">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47a27f000001d6adb42b5a4ddae4"
+											value="1.1">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第三章 人力资源规划</span> <font
+													id="taskTime_42ba47a27f000001d6adb42b5a4ddae4"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','4EE4F75DC1AF16B4C1031493977C172C73825AE55A51F21DAB4BB96BF474CAC1C3C8FAF2FD8A686E','6A59A976F0716F8C0E484B10E2EE859D56E6F8982ECB97DA','42ba48757f000001d6adb42b0c398d53')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba48757f000001d6adb42b0c398d53">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba48757f000001d6adb42b0c398d53">0.1</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba48757f000001d6adb42b0c398d53">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba48757f000001d6adb42b0c398d53">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba48757f000001d6adb42b0c398d53">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba48757f000001d6adb42b0c398d53"
+											value="1.1">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第四章 人力资源会计</span> <font
+													id="taskTime_42ba48757f000001d6adb42b0c398d53"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','B36C77D3DA877F65C1031493977C172C73825AE55A51F21D2A05FB2EC4F019D1C3C8FAF2FD8A686E','8B61B2E510EEF07E617B48178F35368C','42ba48047f000001d6adb42b8a4bfc97')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba48047f000001d6adb42b8a4bfc97">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba48047f000001d6adb42b8a4bfc97">0.2</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba48047f000001d6adb42b8a4bfc97">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba48047f000001d6adb42b8a4bfc97">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba48047f000001d6adb42b8a4bfc97">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba48047f000001d6adb42b8a4bfc97"
+											value="2.1">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第五章 工作分析</span> <font
+													id="taskTime_42ba48047f000001d6adb42b8a4bfc97"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','9BF42BF085C69566C1031493977C172C73825AE55A51F21D7D32CF4C9C36EA3AC3C8FAF2FD8A686E','363E7B2A385B3D8CEFF2C27D795FA4DFFDC2F12552A5D702','42ba47d87f000001d6adb42bf196dbd2')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47d87f000001d6adb42bf196dbd2">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47d87f000001d6adb42bf196dbd2">0.1</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47d87f000001d6adb42bf196dbd2">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47d87f000001d6adb42bf196dbd2">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47d87f000001d6adb42bf196dbd2">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47d87f000001d6adb42bf196dbd2"
+											value="2.1">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第六章 员工招聘管理</span> <font
+													id="taskTime_42ba47d87f000001d6adb42bf196dbd2"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','1FFCF88D137FF721C1031493977C172C73825AE55A51F21D7AE231E7313516BAC3C8FAF2FD8A686E','369536696EC6C741C1BC740FA65253E2FDC2F12552A5D702','42ba48657f000001d6adb42ba4c82f39')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba48657f000001d6adb42ba4c82f39">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba48657f000001d6adb42ba4c82f39">0</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba48657f000001d6adb42ba4c82f39">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba48657f000001d6adb42ba4c82f39">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba48657f000001d6adb42ba4c82f39">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba48657f000001d6adb42ba4c82f39"
+											value="1.1">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第七章 员工培训管理</span> <font
+													id="taskTime_42ba48657f000001d6adb42ba4c82f39"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','B3D2A047A4AD6EFCC1031493977C172C73825AE55A51F21DE0911517F9C51A3BC3C8FAF2FD8A686E','E4ED6E62AA544F454C34CD49D30FDDC5F2DF16372D60D7E29CA49326AAF42D54','42ba484b7f000001d6adb42babee8e7c')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba484b7f000001d6adb42babee8e7c">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba484b7f000001d6adb42babee8e7c">0</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba484b7f000001d6adb42babee8e7c">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba484b7f000001d6adb42babee8e7c">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba484b7f000001d6adb42babee8e7c">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba484b7f000001d6adb42babee8e7c"
+											value="1.6">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第八章 绩效考核与绩效管理</span> <font
+													id="taskTime_42ba484b7f000001d6adb42babee8e7c"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','512F3B5F8A8F8B2EC1031493977C172C73825AE55A51F21DEC512909677774EDC3C8FAF2FD8A686E','3C0430C740077556F2F79267FC0149A5','42ba47f57f000001d6adb42b6119ec44')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47f57f000001d6adb42b6119ec44">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47f57f000001d6adb42b6119ec44">0.1</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47f57f000001d6adb42b6119ec44">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47f57f000001d6adb42b6119ec44">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47f57f000001d6adb42b6119ec44">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47f57f000001d6adb42b6119ec44"
+											value="1.6">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第九章 薪酬管理</span> <font
+													id="taskTime_42ba47f57f000001d6adb42b6119ec44"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','E1C12F92E4539378C1031493977C172C73825AE55A51F21D625C4F4039CE8746C3C8FAF2FD8A686E','A6D0288E8CA044231A28A48DAAB617636C6BB3AAD348363EFC5ABD6B84D1C0D6','42ba485b7f000001d6adb42b2bfbcd0a')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba485b7f000001d6adb42b2bfbcd0a">
+										<li>
+											<p class="gray6">
+												<span class="f18">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba485b7f000001d6adb42b2bfbcd0a">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba485b7f000001d6adb42b2bfbcd0a">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba485b7f000001d6adb42b2bfbcd0a"
+											value="0">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第十章 职业生涯规划（选修）</span> <font
+													id="taskTime_42ba485b7f000001d6adb42b2bfbcd0a"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','2157D67FB32CF37DC1031493977C172C73825AE55A51F21D68490D74FF248674C3C8FAF2FD8A686E','3BA7C6999474A013BEF3F3A1460E21825DAA5D712D11E774','42ba47867f000001d6adb42be55b1c64')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47867f000001d6adb42be55b1c64">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47867f000001d6adb42be55b1c64">0.1</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47867f000001d6adb42be55b1c64">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47867f000001d6adb42be55b1c64">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47867f000001d6adb42be55b1c64">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47867f000001d6adb42be55b1c64"
+											value="1.6">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第十一章 员工保障管理</span> <font
+													id="taskTime_42ba47867f000001d6adb42be55b1c64"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','44E22C8C71C19E29C1031493977C172C73825AE55A51F21D08B084A31702DE7CC3C8FAF2FD8A686E','D9FCAA6C14B7A7A237ED3613B480755EB3406B0D8EE7F6F2','42ba47947f000001d6adb42be9e45205')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47947f000001d6adb42be9e45205">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47947f000001d6adb42be9e45205">0.1</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47947f000001d6adb42be9e45205">0</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47947f000001d6adb42be9e45205">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47947f000001d6adb42be9e45205">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47947f000001d6adb42be9e45205"
+											value="1.5">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>第十二章 劳动关系</span> <font
+													id="taskTime_42ba47947f000001d6adb42be9e45205"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="study_tab_cnt">
+					<div class="study_items">
+						<h3 class="s_items_tit">
+							<em class="ico_bg"></em>复习指导
+						</h3>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','39FD21FEBB5815B1C1031493977C172C73825AE55A51F21DAB342B9468664AF0C3C8FAF2FD8A686E','4A9390EA0B9CEC34C3C8FAF2FD8A686E','42ba47477f000001d6adb42bf94f64c4')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47477f000001d6adb42bf94f64c4">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47477f000001d6adb42bf94f64c4">1.4</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47477f000001d6adb42bf94f64c4">6</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47477f000001d6adb42bf94f64c4">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47477f000001d6adb42bf94f64c4">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47477f000001d6adb42bf94f64c4"
+											value="20">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>复习指导</span> <font
+													id="taskTime_42ba47477f000001d6adb42bf94f64c4"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="study_items">
+						<h3 class="s_items_tit">
+							<em class="ico_bg"></em>模拟冲刺
+						</h3>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','0EEE14D4B4801181C1031493977C172C73825AE55A51F21DC4C6CEFD0EE45E8BC3C8FAF2FD8A686E','5E668556DD86D284C3C8FAF2FD8A686E','42ba47067f000001d6adb42b1b1b592c')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47067f000001d6adb42b1b1b592c">
+										<li>
+											<p class="gray6">
+												<span class="f18"
+													id="task_avg_point_42ba47067f000001d6adb42b1b1b592c">1.7</span><span
+													class="f12">分</span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_completeness_42ba47067f000001d6adb42b1b1b592c">3</span><span
+													class="f12">%</span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47067f000001d6adb42b1b1b592c">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47067f000001d6adb42b1b1b592c">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47067f000001d6adb42b1b1b592c"
+											value="60">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>模拟测试</span> <font
+													id="taskTime_42ba47067f000001d6adb42b1b1b592c"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="study_tab_cnt">
+					<div class="study_items">
+						<h3 class="s_items_tit">
+							<em class="ico_bg"></em>拓展学习
+						</h3>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','0DC257A83A7414E8C1031493977C172C73825AE55A51F21D451FE5B2FB0D2A27C3C8FAF2FD8A686E','36FDB17DC06C5927C3C8FAF2FD8A686E','42ba47637f000001d6adb42b92581c8f')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47637f000001d6adb42b92581c8f">
+										<li>
+											<p class="gray6">
+												<span class="f18">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47637f000001d6adb42b92581c8f">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47637f000001d6adb42b92581c8f">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47637f000001d6adb42b92581c8f"
+											value="0">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>视野延伸</span> <font
+													id="taskTime_42ba47637f000001d6adb42b92581c8f"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','6F76E5DC7763C7A6C1031493977C172C73825AE55A51F21D66E32EB7844A072AC3C8FAF2FD8A686E','0288C012156C31B8C3C8FAF2FD8A686E','42ba476c7f000001d6adb42b631459f2')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba476c7f000001d6adb42b631459f2">
+										<li>
+											<p class="gray6">
+												<span class="f18">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba476c7f000001d6adb42b631459f2">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba476c7f000001d6adb42b631459f2">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba476c7f000001d6adb42b631459f2"
+											value="0">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>案例分析</span> <font
+													id="taskTime_42ba476c7f000001d6adb42b631459f2"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+						<div class="study_course"
+							onclick="formSub('/booklcms/index/teacher/doMain.do','D6B1A28471EB505BC1031493977C172C73825AE55A51F21D9AD07E6D85C16CBCC3C8FAF2FD8A686E','80ED374125423AC6C3C8FAF2FD8A686E','42ba47797f000001d6adb42ba63d824e')">
+							<a href="javascript:;">
+								<div class="s_c_rig">
+									<ul class="log_stu_info fr"
+										id="taskinfo_42ba47797f000001d6adb42ba63d824e">
+										<li>
+											<p class="gray6">
+												<span class="f18">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级得分</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6">--</span><span class="f12"></span>
+											</p>
+											<p class="f12 gray">班级进度</p>
+										</li>
+										<li>
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="task_stud_time_42ba47797f000001d6adb42ba63d824e">0</span><span
+													class="f12">小时</span>
+											</p>
+											<p class="f12 gray">学习时长</p>
+										</li>
+										<li class="no_border">
+											<p class="gray6">
+												<span class="f18 gray6"
+													id="online_stud_count_42ba47797f000001d6adb42ba63d824e">0</span><span
+													class="f12">人</span>
+											</p>
+											<p class="f12 gray">在学人数</p>
+										</li>
+										<input type="hidden"
+											id="task_sum_point_42ba47797f000001d6adb42ba63d824e"
+											value="0">
+									</ul>
+								</div>
+								<div class="s_c_lef">
+									<em class="ico_bg2 s_state_blue"></em>
+									<table class="v_mid_tbl">
+										<tbody>
+											<tr>
+												<td valign="middle"><span>拓展阅读</span> <font
+													id="taskTime_42ba47797f000001d6adb42ba63d824e"></font></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<form action="" name="indexForm" id="indexForm" method="post"
+				target="_block">
+				<input type="hidden" name="formMap.TERMCOURSE_ID"
+					value="2fb24e407d674cf3a3b10762d742b6d3"> <input
+					type="hidden" name="formMap.CLASS_ID"
+					value="42a8e3950a5084147e104c0d75bf1d46"> <input
+					type="hidden" name="formMap.COURSE_ID"
+					value="2c5f9678c95442908f9bf0040c74b8ac"> <input
+					type="hidden" name="formMap.TASK_ID" id="list_task_id"> <input
+					type="hidden" name="formMap.TASK_NAME" id="list_task_name">
+				<input type="hidden" name="formMap.AVG_POINT" id="list_avg_point">
+				<input type="hidden" name="formMap.SUM_POINT" id="list_sum_point">
+				<input type="hidden" name="formMap.WRONG_RATE" id="list_wrong_rate">
+				<input type="hidden" name="formMap.CLASS_PROGRESS"
+					id="list_class_progress">
+				<!-- 章节在线人数 -->
+				<input type="hidden" name="formMap.TASK_ONLINE_COUNT"
+					id="task_online_count">
+			</form>
+			<!--学习项目具体内容 开始-->
+
+		</div>
+		<!--做题分析-->
+		<div class="m_tabs_cnt_item" id="analysis_qa_info"
+			style="display: none;"></div>
+	</div>
+</div>
